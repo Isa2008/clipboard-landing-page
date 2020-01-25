@@ -2,7 +2,7 @@
 
 TECH STACK: HTML &amp; CSS
 
-Watch it here https://github.com/Isa2008/clipboard-landing-page
+Watch it here https://isa2008.github.io/clipboard-landing-page/
 
 FEATURES:\
 I created the designs to the following widths:\
