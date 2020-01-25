@@ -1,7 +1,6 @@
 # Clipboard Landing Page
 
-TECH STACK:\
-HTML &amp; CSS
+TECH STACK: HTML &amp; CSS
 
 Watch it here https://github.com/Isa2008/clipboard-landing-page
 
