@@ -1,2 +1,3 @@
-# clipboard-landing-page
-HTML &amp; CSS
+# Clipboard Landing Page
+
+TECH STACK: HTML &amp; CSS
