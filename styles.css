@@ -11,8 +11,7 @@ html, body {
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
-/* MEDIA DEVICE
-DESKTOP: 1440px */
+/* MEDIA DEVICE DESKTOP: 1440px */
 
 /* BASIC HEADLINES AND TEXT */
 h1, h2, h3 {
@@ -105,7 +104,6 @@ header {
 .section-headline-text {
     font-size: 14px;
 }
-
 
 /* SECTION SNIPPETS */
 .section-article-snippets {
@@ -238,25 +236,27 @@ footer {
     color: hsl(228, 45%, 44%);
 }
 
-/* MEDIA QUERIES
-MOBILE: 375px */
-@media screen and (max-width: 375px) {
+/* MEDIA QUERIES */
+/* DEVICE: 1120px */
+@media screen and (max-width: 1120px) {
+    #footer {
+        padding: 40px 0px 40px 7vw;
+    }
+    #footer-socialmedia-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 0px;
+    }
+}
+/* DEVICE: 900px */
+@media screen and (max-width: 900px) {
     h3 {
         font-size: 24px;
     }
-    button {
-        width: 85vw;
-        font-size: 18px;
-        padding: 16px 20px;
-        border-radius: 30px;
-        margin: 13px;
-    }
-    #container-header {
-        background-image: url(images/bg-header-mobile.png);
-    }
     header {
         width: 120vw;
-        padding: 0px 14px;
+        padding: 0px 70px;
     }
     #header-logo {
         width: 120px;
@@ -281,7 +281,7 @@ MOBILE: 375px */
         margin-left: 0px;
     }
     .section-article-snippets-img img {
-        width: 85vw;
+        width: 65vw;
     }
     .section-article-text {
         text-align: center;
@@ -292,7 +292,7 @@ MOBILE: 375px */
         font-size: 16px;
     }
     .section-article-clipboard img {
-        width: 90vw;
+        width: 75vw;
     }
     .section-article-workflow {
         display: flex;
@@ -305,10 +305,6 @@ MOBILE: 375px */
         width: 85vw;
         padding: 0px 5px;
         margin-bottom: 40px;
-    }
-    .section-article-download-clipboard {
-        display: flex;
-        flex-direction: column;
     }
     .article-workflow-icons {
         width: 85vw;
@@ -361,10 +357,30 @@ MOBILE: 375px */
         padding: 0px;
         text-align: center;
     }
-    #footer-socialmedia-icons {
+}
+/* MOBILE: 375px */
+@media screen and (max-width: 375px) {
+    button {
+        width: 85vw;
+        font-size: 18px;
+        padding: 16px 20px;
+        border-radius: 30px;
+        margin: 13px;
+    }
+    #container-header {
+        background-image: url(images/bg-header-mobile.png);
+    }
+    header {
+        padding: 0px 14px;
+    }
+    .section-article-snippets-img img {
+        width: 85vw;
+    }
+    .section-article-clipboard img {
+        width: 90vw;
+    }
+    .section-article-download-clipboard {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-left: 0px;
+        flex-direction: column;
     }
 }
