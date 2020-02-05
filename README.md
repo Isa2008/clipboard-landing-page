@@ -3,7 +3,8 @@
 TECH STACK:\
 HTML &amp; CSS
 
-Watch it here https://isa2008.github.io/clipboard-landing-page/
+DEMO:\
+https://isa2008.github.io/clipboard-landing-page/
 
 FEATURES:\
 In responsive design according to the following widths:\
